@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Journal 🌍</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f3f8ff;
+    }
+    header {
+      background-color: #0a4da3;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0.3rem 0;
+    }
+    p {
+      font-size: 1.1rem;
+      color: #e3e8f0;
+    }
+    .cards {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .card {
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      width: 360px;
+      text-align: center;
+      overflow: hidden;
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card img {
+      width: 100%;
+      height: 240px;
+      object-fit: cover;
+    }
+    .card a {
+      display: block;
+      text-decoration: none;
+      color: #0a4da3;
+      font-weight: bold;
+      font-size: 1.2rem;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Travel Journal 🌍</h1>
+    <p>My adventures around the world during the holidays</p>
+  </header>
+
+  <div class="cards">
+    <div class="card">
+      <img src="australia.webp" alt="Australia">
+      <a href="australia.html">Australia</a>
+    </div>
+    <div class="card">
+      <img src="japan.jpg" alt="Japan">
+      <a href="japan.html">Japan</a>
+    </div>
+    <div class="card">
+      <img src="china.jpg" alt="China">
+      <a href="china.html">China</a>
+    </div>
+  </div>
+</body>
+</html>
